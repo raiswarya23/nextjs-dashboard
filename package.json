@@ -1,4 +1,11 @@
 {
+
+  "scripts": {
+  "build": "next build",
+  "dev": "next dev --turbopack",
+  "start": "next start",
+  "seed": "node --import tsx ./app/lib/seed.ts"
+},
   "private": true,
   "scripts": {
     "build": "next build",
@@ -28,4 +35,6 @@
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3"
   }
+
+ 
 }
